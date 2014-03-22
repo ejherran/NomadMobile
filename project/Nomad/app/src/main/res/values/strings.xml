@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nomad</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_services">Services</string>
+    <string name="srv_ssh">SSH</string>
+    <string name="srv_apache">APACHE</string>
+    <string name="srv_mysql">MYSQL</string>
+    <string name="srv_ftp">FTP</string>
+    <string name="srv_dhcp">DHCP</string>
+    <string name="srv_dns">DNS</string>
+    <string name="srv_squid">SQUID</string>
+    <string name="srv_samba">SAMBA</string>
+    <string name="srv_postfix">POSTFIX</string>
+    <string name="action_routes">Routes Configuration</string>
+    <string name="action_sysinfo">System Information</string>
+    <string name="action_cmlaunch">Command Launcher</string>
+    <string name="action_servstatus">Service Status</string>
+    <string name="action_firewall">Firewall</string>
+    <string name="action_loginspector">Log Inspector</string>
+    <string name="action_filecreator">File Creator</string>
+    <string name="action_refresh">Refresh Connection</string>
+    <string name="lbl_host">SERVER:</string>
+    <string name="lbl_port">PORT:</string>
+    <string name="lbl_user">USER:</string>
+    <string name="lbl_pass">PASSWORD:</string>
+    <string name="lbl_connect">CONNECT</string>
+    <string name="vl_port">22</string>
+
+</resources>

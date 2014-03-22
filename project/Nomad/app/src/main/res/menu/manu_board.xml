@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.ice.nomad.NomadActivity" >
+
+    <item android:id="@+id/service"
+        android:title="@string/action_services" >
+        <menu>
+            <item android:id="@+id/srv_ssh"
+                android:title="@string/srv_ssh" />
+            <item android:id="@+id/srv_apache"
+                android:title="@string/srv_apache" />
+            <item android:id="@+id/srv_mysql"
+                android:title="@string/srv_mysql" />
+            <item android:id="@+id/srv_ftp"
+                android:title="@string/srv_ftp" />
+            <item android:id="@+id/srv_dhcp"
+                android:title="@string/srv_dhcp" />
+            <item android:id="@+id/srv_dns"
+                android:title="@string/srv_dns" />
+            <item android:id="@+id/srv_squid"
+                android:title="@string/srv_squid" />
+            <item android:id="@+id/srv_samba"
+                android:title="@string/srv_samba" />
+            <item android:id="@+id/srv_postfix"
+                android:title="@string/srv_postfix" />
+
+        </menu>
+    </item>
+
+    <item android:id="@+id/action_routes"
+        android:title="@string/action_routes"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/action_sysinfo"
+        android:title="@string/action_sysinfo"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/action_cmlaunch"
+        android:title="@string/action_cmlaunch"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/action_servstatus"
+        android:title="@string/action_servstatus"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/action_firewall"
+        android:title="@string/action_firewall"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/action_loginspector"
+        android:title="@string/action_loginspector"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/action_filecreator"
+        android:title="@string/action_filecreator"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/action_refresh"
+        android:title="@string/action_refresh"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/action_exit"
+        android:title="@string/action_exit"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+</menu>
